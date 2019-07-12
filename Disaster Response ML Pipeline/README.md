@@ -19,3 +19,6 @@ Run the following commands in the project's root directory.
  - To run train_classifier.py, use the following arguments:
  `python train_classifier.py DisasterResponse.db disaster_response_classifier.pkl`
  - To run the flask_app.py: `python flask_app.py`. Then go to `localhost:3001/index`.
+ 
+ ![App Snippet] (https://github.com/lalago31/Data-Science-Portfolio/blob/master/Disaster%20Response%20ML%20Pipeline/flask%20app/app%20snippet.PNG)
+ 
