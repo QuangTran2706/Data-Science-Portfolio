@@ -41,6 +41,21 @@ def load_data(database_filepath):
     
     return X, Y , category_names
 
+def tokenize(text):
+     # remove non-alphebetic contents, including punctuations, numbers
+    clean_tokens = []
+    for sent in text:
+        # remove non-alphebetic contents, including punctuations, numbers
+        sent = re.sub(r"[^a-zA-Z]", " ", sent)
+        tokens = word_tokenize(sent)
+        lemmatizer = WordNetLemmatizer()
+        # lemmatize and remove stop words
+        for tok in tokens:
+            clean_tok = lemmatizer.lemmatize(tok.lower()).strip()
+            if clean_tok not in stopwords.words("english"):
+                clean_tokens.append(clean_tok)
+    return clean_tokens
+
 def build_model():
     """
       build NLP pipeline - tf-idf vectorizer, multiple output classifier,
@@ -49,21 +64,7 @@ def build_model():
         None
     Returns: 
         cross validated classifier object
-    """ 
-    def tokenize(text):
-        clean_tokens = []
-        for sent in text:
-            # remove non-alphebetic contents, including punctuations, numbers
-            sent = re.sub(r"[^a-zA-Z]", " ", sent)
-            tokens = word_tokenize(sent)
-            lemmatizer = WordNetLemmatizer()
-            # lemmatize and remove stop words
-            for tok in tokens:
-                clean_tok = lemmatizer.lemmatize(tok).lower().strip()
-                if clean_tok not in stopwords.words("english"):
-                    clean_tokens.append(clean_tok)
-        return clean_tokens
-    
+    """     
     pipeline = Pipeline([
     ('vect', TfidfVectorizer(tokenizer=tokenize)),
     ('clf', MultiOutputClassifier(XGBClassifier(n_estimators = 100, colsample_bytree=0.5)))
