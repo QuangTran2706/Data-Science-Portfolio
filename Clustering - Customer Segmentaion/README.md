@@ -11,5 +11,5 @@ That suggests the people in that cluster to be a target audience for the company
 These segments of the customer base can be the smaller but more precise audience to target for direct marketing campaigns who will have higher probabilities to convert.
 
 
-The data for this project is real life demographical and psychographical data provided by a German consulting firm Bertelsmann Arvato Analytics.
+The data for this project is real life demographical and psychographical data provided by a German consulting firm Bertelsmann Arvato Analytics. It consists two individual datasets of the same structure - one for the German general population and the other for customer of the mail-order company(unfortunately too big to be uploaded). There is also a data dictionary with explanations of each column in the data.  
 
