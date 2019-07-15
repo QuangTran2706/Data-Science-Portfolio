@@ -21,7 +21,9 @@ Run the following commands in the project's root directory.
  - To run the flask_app.py: `python flask_app.py`. Then go to `localhost:3001/index`.
  
  ![alt text](https://raw.githubusercontent.com/lalago31/Data-Science-Portfolio/master/Disaster%20Response%20ML%20Pipeline/flask%20app/app%20snippet.PNG)
+ 
  The app classifies an input message into several related categories as follows:
- ![alt text](https://raw.githubusercontent.com/lalago31/Data-Science-Portfolio/master/Disaster%20Response%20ML%20Pipeline/flask%20app/message%20classifier.png)
+ ![alt text](https://raw.githubusercontent.com/lalago31/Data-Science-Portfolio/master/Disaster%20Response%20ML%20Pipeline/flask%20app/message%20classification.png)
+
 
  
