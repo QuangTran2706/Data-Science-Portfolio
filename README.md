@@ -8,5 +8,5 @@ Topics of the projects include:
 * Recommender Systems with IBM Watson
 * Machine Learning Data Pipeline for Disaster Messages Classification
 
-Detailed descriptions for the projects are in respective folders.
+Detailed descriptions for the projects are in the respective folders.
 
