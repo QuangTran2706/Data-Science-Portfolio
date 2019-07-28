@@ -7,6 +7,7 @@ Topics of the projects include:
 * Deep Learning for Image Classification 
 * Recommender Systems with IBM Watson
 * Machine Learning Data Pipeline for Disaster Messages Classification
+* Convolutional Neural Network for Dog Breed Identification 
 
 Detailed descriptions for the projects are in the respective folders.
 
