@@ -4,7 +4,7 @@
 [image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
-# Convolutional Neural Network - Dog Breed Idenfication
+# Convolutional Neural Network - Dog Breed Identification
 ## Project Overview
 
 In this project, I built a deep learning pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, it will identify the resembling dog breed.  
