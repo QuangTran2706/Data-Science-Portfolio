@@ -8,7 +8,7 @@ Topics of the projects include:
 * Recommender Systems with IBM Watson
 * Machine Learning Data Pipeline for Disaster Messages Classification
 * Convolutional Neural Network for Dog Breed Identification 
-* Capstone - Starbucks Offer Personalization : Sending the Right Offer to Right People 
+* Capstone - Starbucks Offer Personalization : Sending the Right Offer to the Right Customer (How to predict the most effective offers for individual users by extracting key user behaviors from the transaction log)
 
 Detailed descriptions for the projects are in the respective folders.
 
