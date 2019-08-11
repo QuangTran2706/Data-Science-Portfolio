@@ -1,5 +1,5 @@
 # Starbucks Offer Personalization 
-### Sending the right offer to right people
+### Sending the right offer to the right customer
 
 ## Introduction
 Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
@@ -34,7 +34,10 @@ Understand the three datasets
 Create attributes from the transaction log on the user level
 
 #### 3. Machine Learning:
-Build multioutput classification model to determine the offer types ranked by likelihood of conversion
+Build multioutput classification model to determine best the offer/offer types to send to each user ranked by likelihood of conversion
 
 #### 4. Clustering:
 Find subgroups within customers that Starbucks can target differently according to each group's distinct demographical or behavioral patterns.
+
+## Results
+A full report about this project can be found on [Medium](https://towardsdatascience.com/starbucks-offer-personalization-sending-the-right-offer-to-the-right-customer-14d4fbc20575?source=friends_link&sk=e6647713595bc29d2a25b387f48cec3d)
